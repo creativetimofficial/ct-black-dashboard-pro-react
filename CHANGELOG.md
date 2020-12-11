@@ -1,3 +1,70 @@
+## [1.2.0] 2020-12-11
+### Bug fixing
+- Delete the usage of `react-google-maps`, and change it with simple JS code from the Google Maps API tutorials
+- https://github.com/creativetimofficial/ct-black-dashboard-pro-react/issues/30
+- https://github.com/creativetimofficial/ct-black-dashboard-pro-react/issues/27
+- https://github.com/creativetimofficial/ct-black-dashboard-pro-react/issues/24
+- https://github.com/creativetimofficial/ct-black-dashboard-pro-react/issues/25
+- https://github.com/creativetimofficial/black-dashboard-react/issues/19
+### Major style changes
+- Replace downloaded version of `bootstrap` **scss** to `node_modules` ones
+- Renamed `src/assets/scss/black-dashboard-pro-react/react/_react-differences.scss` to `src/assets/scss/black-dashboard-pro-react/react/react-differences.scss`
+### Deleted components
+### Added components
+- `src/components/TagsInput/TagsInput.js` (instead of `react-tagsinput` plugin)
+### Deleted dependencies
+- @types/googlemaps
+- @types/react
+- @types/markerclustererplus
+- react-google-maps (Instead of it, we're going to use simple plain JS Google maps)
+- react-tagsinput (instead of this one, we've copied it's code inside `src/components/TagsInput/TagsInput.js` and updated it to the latest React features)
+- react-bootstrap-switch (replaced by the `CustomInput` component from `reactstrap`)
+- history (instead of using `history`, we'll be using `BrowserRouter` from `react-router-dom`)
+### Added dependencies
++ match-sorter@6.0.2 (for new React Table API)
++ bootstrap@4.5.3
++ node-sass-package-importer@5.3.2
+### Updated dependencies
+```
+chart.js                       2.9.3   →    2.9.4
+moment                        2.24.0   →   2.29.1
+node-sass                     4.13.1   →   4.14.1
+nouislider                    14.1.1   →   14.6.3
+react                        16.13.0   →   17.0.1
+react-big-calendar            0.24.0   →   0.30.0
+react-bootstrap-sweetalert     5.1.9   →    5.2.0
+react-bootstrap-wizard         0.0.7   →    0.0.9
+react-chartjs-2                2.9.0   →   2.11.1
+react-datetime                2.16.3   →    3.0.4
+react-dom                    16.13.0   →   17.0.1
+react-notification-alert       0.0.12  →   0.0.13
+react-router-dom               5.1.2   →    5.2.0
+react-scripts                  3.4.0   →    4.0.1
+react-select                   3.0.8   →    3.1.1
+react-table                   6.11.5   →    7.6.2
+reactstrap                     8.4.1   →    8.7.1
+eslint-plugin-flowtype        3.13.0   →    5.2.0
+typescript                     3.8.2   →    4.1.2
+```
+### Important Notes
+**The jQuery and TypeScript dependencies are installed only to stop console warnings on install. They are not actually used in our product. So the product is not based on jQuery, and it is not based on TypeScript!**
+### Warning
+_Some warnings may appear when running the installation command, but they do not affect the UI or the functionality of the product._
+_The following warnings will appear when running the installation command, but they do not affect the UI or the functionality of the product (they will be solved in our next update - they come from the plugins that we are using, and they haven't yet upgraded to the latest React version):_
+```
+npm WARN react-big-calendar@0.30.0 requires a peer of react@^16.6.1 but none is installed. You must install peer dependencies yourself.
+npm WARN react-big-calendar@0.30.0 requires a peer of react-dom@^16.6.1 but none is installed. You must install peer dependencies yourself.
+npm WARN react-datetime@3.0.4 requires a peer of react@^16.5.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-select@3.1.1 requires a peer of react@^16.8.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-select@3.1.1 requires a peer of react-dom@^16.8.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @restart/hooks@0.3.25 requires a peer of react@^16.8.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-input-autosize@2.2.2 requires a peer of react@^0.14.9 || ^15.3.0 || ^16.0.0-rc || ^16.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-popper@1.3.7 requires a peer of react@0.14.x || ^15.0.0 || ^16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN create-react-context@0.3.0 requires a peer of react@^0.14.0 || ^15.0.0 || ^16.0.0 but none is installed. You must install peer dependencies yourself.
+```
+_Also, inside the product - the browser console, you will see a warning for deprecated methods of React. Once again, these do not affect the UI or the functionality of the product, they are there, so that the owners of the plugins will know that in React 18, their plugins will fail. These will be solved by the release of React 18, so you do not have to worry about them. Also, they appear only in development, and not in production._
+Happy Hacking!
+
 ## [1.1.0] 06-03-2020
 ### Bug fixing
 - Change the usage of `.env` file for absolute imports to `jsconfig.json` file
