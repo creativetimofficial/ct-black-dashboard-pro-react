@@ -23,6 +23,7 @@
 ### Added dependencies
 + match-sorter@6.0.2 (for new React Table API)
 + bootstrap@4.5.3
++ node-sass-package-importer@5.3.2
 ### Updated dependencies
 ```
 chart.js                       2.9.3   →    2.9.4
