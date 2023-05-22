@@ -1,11 +1,8 @@
 # [Black Dashboard PRO React](https://demos.creative-tim.com/black-dashboard-pro-react/#/admin/dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fblack-dashboard-pro-react%2F%23%2Fadmin%2Fdashboard&text=Black%20Dashboard%20PRO%20React%20-%20Premium%20Bootstrap%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Fblack-dashboard-pro-react%2F&via=creativetim&hashtags=react%2Cbootstrap%2Creactstrap%2Ccreativetim%2Ccreativetimofficial)
 
-
-
-![version](https://img.shields.io/badge/version-1.2.1-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-black-dashboard-pro-react.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-black-dashboard-pro-react.svg?maxAge=2592000)]()  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-1.2.2-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-black-dashboard-pro-react.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-black-dashboard-pro-react.svg?maxAge=2592000)]() [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Gif](./github-assets/black-dashboard-pro-react.gif)
-
 
 Black Dashboard PRO React is a beautiful [Bootstrap 4](http://getbootstrap.com/), [Reacstrap](https://reactstrap.github.io/) and [React](https://reactjs.org/) ([create-react-app](https://github.com/facebook/create-react-app)) Admin Dashboard with a huge number of components built to fit together and look amazing. If you are looking for a tool to manage and visualize data about your business, this dashboard is the thing for you. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics.
 Black Dashboard PRO React comes packed with all plugins that you might need inside a project and documentation on how to get started. It is light and easy to use, and also very powerful.
@@ -14,6 +11,7 @@ Black Dashboard PRO React features over 160 individual components, giving you th
 We thought about everything, so this dashboard comes with 2 versions, Dark Mode and Light Mode.
 
 Special thanks go for the owners of these plugins:
+
 - [chartjs](https://www.chartjs.org/)
 - [jvectormap](http://jvectormap.com/)
 - [nouislider](https://refreshless.com/nouislider/)
@@ -36,37 +34,34 @@ We are very excited to share this dashboard with you and we look forward to hear
 
 ## Table of Contents
 
-* [Versions](#versions)
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
-
+- [Versions](#versions)
+- [Demo](#demo)
+- [Quick Start](#quick-start)
+- [Documentation](#documentation)
+- [File Structure](#file-structure)
+- [Browser Support](#browser-support)
+- [Resources](#resources)
+- [Reporting Issues](#reporting-issues)
+- [Technical Support or Questions](#technical-support-or-questions)
+- [Licensing](#licensing)
+- [Useful Links](#useful-links)
 
 ## Versions
 
 [<img src="./github-assets/html.png" width="60" height="60" />](https://themes.getbootstrap.com/product/black-dashboard-pro-premium-bootstrap-4-admin/)
 [<img src="./github-assets/react.svg" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-pro-react)[<img src="./github-assets/vuejs.png" width="60" height="60" />](https://www.creative-tim.com/product/vue-black-dashboard-pro)
 
-
-| HTML | React | Vue |
-| --- | --- | --- |
+| HTML                                                                                                                                                                                                   | React                                                                                                                                                                                   | Vue                                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [![Black Dashboard PRO HTML](https://themes.getbootstrap.com/wp-content/uploads/2018/08/bb_bdp_thumbnail.jpg)](https://themes.getbootstrap.com/product/black-dashboard-pro-premium-bootstrap-4-admin/) | [![Black Dashboard PRO React](https://s3.amazonaws.com/creativetim_bucket/products/138/original/opt_bdp_thumbnail.jpg)](https://www.creative-tim.com/product/black-dashboard-pro-react) | [![Vue Black Dashboard PRO](https://s3.amazonaws.com/creativetim_bucket/products/135/original/opt_bdp_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-black-dashboard) |
 
 ## Demo
 
-| Dashboard | User Profile | Tables | Maps | Notification |
-| --- | --- | --- | --- | --- |
-| [![Start page](./github-assets/dashboard-page.png)](https://demos.creative-tim.com/black-dashboard-pro-react/#/admin/dashboard) | [![User profile page](./github-assets/user-page.png)](https://demos.creative-tim.com/black-dashboard-pro-react/#/admin/user-profile) | [![Tables page ](./github-assets/table-page.png)](https://demos.creative-tim.com/black-dashboard-pro-react/#/admin/extended-tables) | [![Maps Page](./github-assets/map-page.png)](https://demos.creative-tim.com/black-dashboard-pro-react/#/admin/full-screen-map) | [![Notification page](./github-assets/notifications-page.png)](https://demos.creative-tim.com/black-dashboard-pro-react/#/admin/notifications)
+| Dashboard                                                                                                                       | User Profile                                                                                                                         | Tables                                                                                                                              | Maps                                                                                                                           | Notification                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Start page](./github-assets/dashboard-page.png)](https://demos.creative-tim.com/black-dashboard-pro-react/#/admin/dashboard) | [![User profile page](./github-assets/user-page.png)](https://demos.creative-tim.com/black-dashboard-pro-react/#/admin/user-profile) | [![Tables page ](./github-assets/table-page.png)](https://demos.creative-tim.com/black-dashboard-pro-react/#/admin/extended-tables) | [![Maps Page](./github-assets/map-page.png)](https://demos.creative-tim.com/black-dashboard-pro-react/#/admin/full-screen-map) | [![Notification page](./github-assets/notifications-page.png)](https://demos.creative-tim.com/black-dashboard-pro-react/#/admin/notifications) |
 
 [View More](https://demos.creative-tim.com/black-dashboard-pro-react/#/admin/dashboard).
-
 
 ## Quick start
 
@@ -74,10 +69,9 @@ Quick start options:
 
 - [Buy from Creative Tim](https://www.creative-tim.com/product/black-dashboard-pro-react).
 
-
 ## Documentation
-The documentation for the Black Dashboard PRO React is hosted at our [website](https://demos.creative-tim.com/black-dashboard-pro-react/#/documentation/tutorial).
 
+The documentation for the Black Dashboard PRO React is hosted at our [website](https://demos.creative-tim.com/black-dashboard-pro-react/#/documentation/tutorial).
 
 ## File Structure
 
@@ -188,8 +182,8 @@ At present, we officially aim to support the last two versions of the following 
 
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
-
 ## Resources
+
 - Demo: https://demos.creative-tim.com/black-dashboard-pro-react/#/admin/dashboard
 - Download Page: https://www.creative-tim.com/product/black-dashboard-pro-react
 - Documentation: https://demos.creative-tim.com/black-dashboard-pro-react/#/documentation/tutorial
@@ -198,6 +192,7 @@ At present, we officially aim to support the last two versions of the following 
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/ct-black-dashboard-pro-react/issues)
 
 ## Reporting Issues
+
 We use GitHub Issues as the official bug tracker for the Black Dashboard PRO React. Here are some advices for our users that want to report an issue:
 
 1. Make sure that you are using the latest version of the Black Dashboard PRO React. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
