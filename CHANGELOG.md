@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.2.2] 2023-05-22
+
+- Fix issues
+- Update dependencies
+- Fix installation issues
+
 ## [1.2.1] 2022-06-29
 
 - Update dependencies
