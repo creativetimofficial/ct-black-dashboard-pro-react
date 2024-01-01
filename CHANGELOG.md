@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.2.3] 2024-01-01
+
+- Update dependencies
+- Fix `react-select` component's styling issue.
+
 ## [1.2.2] 2023-05-22
 
 - Fix issues
