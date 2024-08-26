@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.2.4] 2024-08-19
+
+- Update dependencies
+- Fix Light and Dark theme toggle state issue
+- Fix Sidebar Mini toggle state issue
+
 ## [1.2.3] 2024-01-01
 
 - Update dependencies
